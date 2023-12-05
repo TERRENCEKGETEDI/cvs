@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    margin: 0;
+    overflow: hidden;
+}
+button{
+    border-radius: 20px;
+    margin-left: 46%;
+    border-width: 10px;
+    border-color: green;
+}
+.body{
+    height: 99vh;
+    display: column;
+    overflow-y: scroll;
+    height: 96vh;
+    border-radius: 15px;
+    margin-top: 5px;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.option{
+    color: black;
+    background-color: white;
+    border-width:0px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:410px;
+    transform: rotate(90deg);
+    font-weight: bold;
+    font-size: 20px;
+}
+.option:hover{
+    background-color: gray;
+    box-shadow:1px -1px 10px black;
+    transition: box-shadow 0.0001s;
+}
+.questions{
+    font-size: 10px;
+    width: 400px;
+    margin-left: 200px;
+}
+.search-style{
+    font-size: 20px;
+    display: block;
+    border-radius:5px;
+    border-color: black;
+    border-width: 8px;
+    width: 100%;
+    border-right: 0px;
+}
+.terms{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.create{
+    font-family: cursive;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.que{
+    font-weight: bolder;
+    font-size:medium;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.body{
+    background-color: lightskyblue;
+}
+
+a.register-link {
+    width: fit-content;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    margin-left: auto;
+    margin-right: 50%;
+}

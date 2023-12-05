@@ -1,0 +1,12 @@
+document.getElementById('a1').innerText = localStorage.getItem('answer1');
+document.getElementById('a2').innerText = localStorage.getItem('answer2');
+document.getElementById('a3').innerText = localStorage.getItem('answer3');
+document.getElementById('a4').innerText = localStorage.getItem('answer4');
+document.getElementById('a5').innerText = localStorage.getItem('answer5');
+document.getElementById('a6').innerText = localStorage.getItem('answer6');
+document.getElementById('a7').innerText = localStorage.getItem('answer7');
+document.getElementById('a8').innerText = localStorage.getItem('answer8');
+document.getElementById('a9').innerText = localStorage.getItem('answer9');
+document.getElementById('a10').innerText = localStorage.getItem('answer10');
+document.getElementById('a11').innerText = localStorage.getItem('answer11');
+document.getElementById('a12').innerText = localStorage.getItem('answer12');

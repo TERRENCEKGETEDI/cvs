@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practicing</title>
+	<link rel="StyleSheet" href="typing.css">
+    <script src="typing.js"></script>
+</head>
+<body>
+    <div class="all">
+    <form id="inputForm">
+            <h1>CV expample 2</h1>
+            <div>
+                <h3>PICTURE</h3>
+                <label>Picture :</label>
+                <input type="file">
+            </div>
+            <div>
+                <h3>PERSONAL INFORMATION</h3>
+				<label class="que">NAME(s) :</label>		    <input id="name" type="text"><br>
+				<label class="que">SURNAME :</label>		    <input id="surname" type="text"><br>
+				<label class="que">PHONE NUMBER :</label>	    <input id="phoneNumber" type="number"><br>
+                <label>e-mail : </label>					    <input id="email" type="email"><br>
+				<label class="que">IDENDITY NUMBER :</label>    <input id="id" type="text"><br>
+				<label class="que">QUALIFICATION :</label>	    <input id="qualification" type="text" value="none"><br>
+				<label class="que">Experience:</label>		    <p>It must be from (0 to 10)</p>	<input id="skills" type="range"><br>
+                <label>Website : </label>					    <input id="website"><br>
+				<label class="que">PHYSICAL ADDRESS :</label>   <input id="address"  type="text"><br>
+				<p class="que">GENDER :</p>
+				<label class="que">Male</label>				    <input id="gender" class="gender" name="gender" type="radio">
+				<label class="que">Female</label>			    <input id="gender" class="gender" name="gender" type="radio"><br>
+				<label class="que">MARITAL STATUS :</label>	    <input id="marital" type="text"><br>
+				<label class="que">HIGHEST GRADE :</label>	    <input id="grade"type="number" min="20" step="12" max="99"><br>
+            </div>
+            <div>
+                <h3>EDUCATION</h3>
+                <input id="education">
+            </div>
+            <div>
+                <h3>SKILLS</h3>
+                <input id="skill1"><br>
+                <input id="skill2"><br>
+                <input id="skill3"><br>
+                <input id="skill4"><br>
+                <input id="skill5"><br>
+                <input id="skill6"><br>
+                <input id="skill7"><br>
+                <input id="skill8"><br>
+            </div>
+            <div>
+                <h3>EXPERIENCE</h3>
+                <input id="experience1"><br>
+                <input id="experience2"><br>
+                <input id="experience3"><br>
+                <input id="experience4"><br>
+                <input id="experience5"><br>
+                <input id="experience6"><br>
+            </div>
+            <div>
+                <label>OBJECTIVES :</label> <input id="objectives" type="text"><br>
+                <label>RELATED COURSES :</label> <input id="course" type="text"><br>
+                <label>LANGUAGE PROFECIENCY :</label> <input id="language" type="text"><br>
+                <label>AWARDS and HONORS :</label> <input id="awards" type="text"><br>
+                <label>REFFERENCES :</label> <input id="refferences" type="text"><br>
+                <label>CONTACT(s) person :</label> <input id="contactName" type="text"><br>
+                <label>RELATIONSHIP :</label> <input id="relationship" type="text"><br>
+                <label>CONTACT NUMBER :</label> <input id="contactNumber" type="number"><br>
+                <label>HOBBIES :</label> <input id="hobbies" type="text"><br>
+            </div>
+            <button type="button" onclick="submitForm()">Submit CV 1</button>
+            <button type="button" onclick="submitForm2()">Submit CV 2</button>
+            <button type="button" onclick="submitForm3()">Submit CV 3</button>
+    </form>
+</div>
+</body>
+</html>

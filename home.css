@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    overflow: hidden;
+}
+img{
+    width: 400px;
+    height: 300px;
+    margin-left: 5px;
+}
+button{
+    border-radius: 20px;
+    margin-left: 35%;
+}
+li{
+    margin-left: 10px;
+}
+.body{
+    border: none;
+    width: 420px;
+    height: 99vh;
+    display: column;
+    overflow-y: scroll;
+    height: 96vh;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.styles{
+	background:url("resume.jpg");
+	background-repeat:none;
+	background-size:cover;
+	background-position:center;
+	text-align: center;
+}
+.option{
+	color: black;
+	background-color: white;
+	border-width:0px;
+	border-radius: 5px;
+	cursor: pointer;
+	transform: rotate(90deg);
+	font-weight: bold;
+	font-size: 20px;
+	font-family: cursive;
+	margin-bottom: 10px;
+	margin-left: 1000px;
+	text-align: left;
+}
+.option:hover{
+	background-color: gray;
+	box-shadow:1px 1px 1px black;
+	transition: box-shadow 0.0001s;
+}
+.interview-picture{
+	width: 400px;
+	height: 300px;
+}
+.cv-picture{
+	width: 400px;
+	height: 300px;
+}
+.create{
+	font-family: cursive;
+	top: 0;
+	width: 400px;
+	text-align: center;
+	color:white;
+	text-transform:upper-alpha;
+}
+button:hover{
+	color:blue;
+	font-weight:bold;
+}
